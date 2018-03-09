@@ -1,0 +1,29 @@
+safe: false
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+permalink: /:title
+
+title: "Pedro Marcondes"
+description: "Projeto TCC IME-USP 2017 "
+baseurl: ""
+url: "" # replace by your site's url
+github_username:  msart # (your name)
+accent: "#f7f7e6" # accent color for blog column
+
+author: "Pedro Marcondes"
+address: "<br>São Paulo, Brasil"
+email: "p.marcondes94@gmail.com"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: br
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
