@@ -5,7 +5,7 @@ date:   2017-02-31 00:00:00 +0200
 ---
 
 ## Aluno: Pedro Marcondes
-## Orientadores: Marcelo Queiroz
+## Orientador: Marcelo Queiroz
 ## Tema: Algoritmos de otimização em problemas de processamento de sinais digitais
 <!--  * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Um instrumento aumentado é um instrumento tradicional cuja capacidades são amplificadas com o uso de sensores, tipos de produção de som e/ou diferentes formas de interação entre instrumento e instrumentista.
  * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O objetivo do trabalho é conseguir estimar de uma maneira confiável o ângulo de uma articulação(entre o braço e antebraço especificamente)  para ser aplicado no contexto de mapeamento de movimentos de instrumentistas para o campo de instrumentos aumentados.
