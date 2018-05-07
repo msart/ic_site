@@ -4,7 +4,7 @@
  <title>Pedro Marcondes</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-03-09T10:34:11-03:00</updated>
+ <updated>2018-05-07T11:20:54-03:00</updated>
  <id></id>
  <author>
    <name>Pedro Marcondes</name>
@@ -13,9 +13,106 @@
 
  
  <entry>
+   <title>Semana 7</title>
+   <link href="#2018-05-04-19"/>
+   <updated>2018-05-04T19:00:00-03:00</updated>
+   <id>/semanasete</id>
+   <content type="html">&lt;h2 id=&quot;2018-05-05&quot;&gt;2018-05-05&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Como foi semana de break, tradicionalmente temos muito trabalho relacionado as matérias e acabei não sendo muito produtivo. Nessa semana montei a apresentação para a reunião e continuei estudando o algoritmo de colônia artificial de abelhas.&lt;/li&gt;
+  &lt;li&gt;       Outro ponto feito foi separar novosa materiais sobre o banco de filtros “two-channel quadrature mirror” para entender o como e porquê ele foi desenhado.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 6</title>
+   <link href="#2018-04-27-19"/>
+   <updated>2018-04-27T19:00:00-03:00</updated>
+   <id>/semanaseis</id>
+   <content type="html">&lt;h2 id=&quot;2018-04-28&quot;&gt;2018-04-28&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Como estabelecemos o que iria ser estudado foi proposto que eu preparasse apresentações sobre os algoritmos e os filtros para as reuniões semanais do grupo de computação musical. São apresentações técnicas curtas de cerca de 15 minutos e decidi fazer a primeira mais geral e as outras tratando cada algoritmo individualmente para no fim poder mostrar a compração.&lt;/li&gt;
+  &lt;li&gt;       Além disso essa semana voltei a focar no algoritmo de Remez com mais calma, dado que era o algoritmo que estava tendo mais dificuldade e o de colônia artificial de abelhas por ser algo totalmente novo para mim. Para entender melhor o segundo eu decidi primeiro estudar no geral algoritmos de enxame.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 5</title>
+   <link href="#2018-04-20-19"/>
+   <updated>2018-04-20T19:00:00-03:00</updated>
+   <id>/semanacinco</id>
+   <content type="html">&lt;h2 id=&quot;2018-04-21&quot;&gt;2018-04-21&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Como gostaria de comparar algum outro algoritmo com o algoritmo de Newton, selecionei o algoritmo de colônia artificial de abelhas pois pode ser usado no mesmo tipo de filtro que usamos o algoritmo de Newton. Além disso é um algoritmo bem diferente dos outros e algo com uma intuição nova para mim, logo me parece uma boa oportunidade para entender esse tipo de abordagem tanto de maneira teórica como na própria implementação.&lt;/li&gt;
+  &lt;li&gt;       Com isso juntamos 4 algoritmos onde podemos estabelecer uma comparação (Newton x ABC e minimax x Remez) e assim pássamos para etapa de aprofundamento tanto nos algoritmos quanto nos filtros em que eles são usados, já que um deles é o “two-channel quadrature mirror filter banks” do qual não tenho conhecimento prévio.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 4</title>
+   <link href="#2018-04-13-19"/>
+   <updated>2018-04-13T19:00:00-03:00</updated>
+   <id>/semanaquatro</id>
+   <content type="html">&lt;h2 id=&quot;2018-04-14&quot;&gt;2018-04-14&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Essa semana eu finalizei a leitura rápida do “Optimal Filtering” e parti para os artigos pré-selecionados. Após uma discussão da reunião achamos uma boa tática realmente seguir com a ideia de encontrar algoritmos usados nos mesmos tipos de filtro para facilitar a comparação entre eles.&lt;/li&gt;
+  &lt;li&gt;       Um algoritmo que me chamou atenção foi o algoritmo de substituição de Remez pelo fato de ser usado em um banco de filtros igual ao do minimax e ser uma variação mais elaborada do mesmo. O que seria interessante para comparação.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 3</title>
+   <link href="#2018-04-06-19"/>
+   <updated>2018-04-06T19:00:00-03:00</updated>
+   <id>/semanatres</id>
+   <content type="html">&lt;h2 id=&quot;2018-04-07&quot;&gt;2018-04-07&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Mesmo com algumas coisas já selecionadas essa semana passei a estudar as outras referências para checar se o caminho pensado na semana passada é mesmo o que vamos seguir nesse trabalho ou até mesmo achar coisas que contribuam para ele. Logo comecei a ler a segunda referência “Optimal Filtering” de uma maneira mais superficial para ver se acho uma abordagem diferente.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 2</title>
+   <link href="#2018-03-30-19"/>
+   <updated>2018-03-30T19:00:00-03:00</updated>
+   <id>/semanadois</id>
+   <content type="html">&lt;h2 id=&quot;2018-03-31&quot;&gt;2018-03-31&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Ainda continuando a leitura do livro “Digital Filters” me deparei com o uso de algoritmos minimax no design de filtros. Isso me chamou atenção pois estava estudando o algoritmo para a matéria de IA e achei interessante dado que são contextos bem diferentes. Em IA o algoritmo é usado geralmente em jogos. No design de filtro esses algoritmos são usados para minimizar o máximo de alguma norma. É um método bem simples e fácil de entender a intuição.&lt;/li&gt;
+  &lt;li&gt;       Até agora os algoritmos são simples e possuem bastante referências de como utilizá-los no design. Me parece interessante selecioná-los afim de comparar a performance.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 1</title>
+   <link href="#2018-03-23-19"/>
+   <updated>2018-03-23T19:00:00-03:00</updated>
+   <id>/semanaum</id>
+   <content type="html">&lt;h2 id=&quot;2018-03-24&quot;&gt;2018-03-24&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Nessa primeira semana estudei o material conforme especificado no planejamento. Iniciei com a primeira referência “Digital Filters” com o intuito de estudar um pouco design de filtros e alguns algoritmos de otimização.&lt;/li&gt;
+  &lt;li&gt;       Dois algoritmos ocuparam meus estudos essa semana, algoritmo de Newton e Quasi-Newton. O segundo sendo apenas uma modificação do primeiro afim de diminuir o número de cálculos necessários. Foquei em estudar os algoritmos, o como e porquê ele é usado nesse contexto.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Proposta</title>
-   <link href="#2017-03-02-19"/>
-   <updated>2017-03-02T19:00:00-03:00</updated>
+   <link href="#2018-03-16-19"/>
+   <updated>2018-03-16T19:00:00-03:00</updated>
    <id>/proposta</id>
    <content type="html">&lt;h2 id=&quot;aluno-pedro-marcondes&quot;&gt;Aluno: Pedro Marcondes&lt;/h2&gt;
 &lt;h2 id=&quot;orientador-marcelo-queiroz&quot;&gt;Orientador: Marcelo Queiroz&lt;/h2&gt;
@@ -30,47 +127,86 @@
  * &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Depois pretendemos aplicar essa estimação no baixo elétrico afim de usar a angulação da articulação mencionada como controlador de efeito no som produzido pelo instrumento, desenvolvendo assim um baixo aumentado. --&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;       Este projeto de iniciação científica visa o estudo de algoritmos de otimização aplicados à problemas de processamento de sinais digitais. A motivação é ganhar intuição e conhecimento sobre as técnicas e suas aplicações no campo de processamento de sinais digitais.&lt;/li&gt;
-  &lt;li&gt;      O desenho de filtros é um campo muito importante dentro da área de processamento de sinais e métodos de otimização é parte integral desse processo. Como ponto de partida irei estudar alguns desses algoritmos  e suas aplicações em problemas de design de filtros recursivos e não recursivos.&lt;/li&gt;
+  &lt;li&gt;       Este projeto de iniciação científica visa o estudo e implementação de algoritmos de otimização aplicados a problemas de processamento de sinais digitais. Além de estender a formação básica do BCC, uma motivação desse projeto é ganhar intuição e conhecimento acerca dessa intersecção de disciplinas, que contém desafios importantes em computação sonora e musical, como o desenho de filtros com respostas em frequência especificadas, a redução de custos computacionais a partir da reformulação de filtros (por exemplo através de aproximações de filtros não-recursivos através de filtros recursivos), o posicionamento ótimo de fontes sonoras e ouvintes em espaços acústicos, entre outros.&lt;/li&gt;
+  &lt;li&gt;       Outra motivação parte do meu trabalho de conclusão de curso, no qual trabalhei com um filtro para estabilização de dados de sensores espaciais (acelerômetro e magnetômetro) que usava o método do gradiente descendente para estimar a direção do sensor. Desenvolvi um filtro que tratava o problema com um sensor, e me interessa explorar possíveis expansões desse problema para múltiplos sensores com restrições de movimento (por exemplo no caso de sensores posicionados em eixos acoplados, como o braço e o antebraço de uma pessoa).&lt;/li&gt;
+  &lt;li&gt;       Como ponto de partida irei estudar textos fundamentais sobre o desenho de filtros recursivos e não recursivos e as técnicas de otimização utilizadas para isso, antes de definir uma aplicação específica para a etapa final do projeto. Pretendemos avançar de forma coordenada entre os estudos teóricos e a implementação prática dos algoritmos estudados, através de protótipos que permitam entender melhor os comportamentos e resultados de possíveis alternativas de implementação (usando modelos de representação e algoritmos diferentes).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;etapas&quot;&gt;Etapas&lt;/h2&gt;
+&lt;h2 id=&quot;etapas-e-cronograma&quot;&gt;Etapas e Cronograma&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;       Primeiro passo é estudar um material pré selecionado para afunilar o escopo do trabalho. Após isso, analisaremos os algoritmos envolvidos nas técnicas escolhidas, entender o porquê a técnica foi escolhida, que natureza de problemas cada uma se encaixa melhor.&lt;/li&gt;
+  &lt;li&gt;       O trabalho se divide em três partes. O primeiro passo será estudar o material fundamental para ganhar uma visão um pouco mais geral dessa fronteira interdisciplinar. Em um segundo momento, o objetivo será delimitar o escopo do trabalho, ou seja, selecionar problemas em processamento de sinais digitais e algoritmos de otimização específicos que serão estudados mais detalhadamente. A terceira parte consiste em realizar experimentos computacionais comparativos entre as técnicas e problemas selecionados.&lt;/li&gt;
+  &lt;li&gt;       As primeiras três semanas se concentraram na leitura de material introdutório/didático ao assunto [1][2] que abrange diversas aplicações, além de 4 artigos [3][4][5][6] relativos a problemas específicos como forma de conhecer algumas aplicações específicas nessa fronteira entre processamento de sinais e otimização. Estimamos gastar cerca de 21 horas nessa etapa, o que resultaria em uma carga semanal de cerca de 7 horas, sem contar outras atividades regulares e relacionadas com esse trabalho, como as reuniões semanais do grupo de computação musical (2 hs/semana), os seminários semanais (que começarão em Abril, 1 h/semana) e reuniões individuais com o orientador (reuniões de 1h com periodicidade semanal ou quinzenal conforme a necessidade), que continuarão por todo o semestre.&lt;/li&gt;
+  &lt;li&gt;       Iniciando na segunda semana de Abril até o meio de Maio a proposta é estudar aprofundadamente uma seleção específica de problemas identificados na primeira etapa, através de referências novas obtidas de um levantamento bibliográfico específico aos problemas selecionados. Em termos numéricos, pretendemos explorar três algoritmos de otimização diferentes, dentre métodos de otimização contínua e combinatória para minimização local e global, além de dois ou três problemas relacionados ao desenho de filtros. Nessa segunda etapa estimamos gastar 40 horas, ou 8 horas por semana.&lt;/li&gt;
+  &lt;li&gt;       Do meio de Maio até o meio de Junho planejaremos e realizaremos um experimento computacional para comparar alternativas de modelagem/solução dos problemas selecionados na segunda etapa em termos de performance computacional, qualidade das soluções ou outros critérios específicos que podem depender da escolha dos problemas. Estimamos que o tempo de implementação, análise e discussão dos resultados serão em torno de 30 horas, ou 7.5 horas por semana.&lt;/li&gt;
+  &lt;li&gt;        Nas últimas duas semanas de Junho o tempo será reservado para realizar e revisar o pôster (6 horas estimadas) e para o desenvolvimento e revisão do relatório final, que consiste em reunir e organizar todo o material escrito durante o semestre, complementando-o com informações necessárias (8 horas estimadas).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;cronograma&quot;&gt;Cronograma&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Semana 1&lt;/th&gt;
+      &lt;th&gt;Semana 2&lt;/th&gt;
+      &lt;th&gt;Semana 3&lt;/th&gt;
+      &lt;th&gt;Semana 4&lt;/th&gt;
+      &lt;th&gt;Total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Março&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Abril&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Maio&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;7,5&lt;/td&gt;
+      &lt;td&gt;7,5&lt;/td&gt;
+      &lt;td&gt;31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Junho&lt;/td&gt;
+      &lt;td&gt;7,5&lt;/td&gt;
+      &lt;td&gt;7,5&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;29&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total de horas&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;105 + 40&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;referências&quot;&gt;Referências&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;       As primeiras três semanas se focaram em estudar um material mais genérico com diversas aplicações diferentes para selecionar um escopo menor de trabalho.&lt;/li&gt;
-  &lt;li&gt;       Durante o mês de Abril e Maio a proposta é estudar um subconjunto dos problemas da primeira etapa. Inicialmente estudar os algoritmos usados nas soluções dos mesmos e depois estudar os problemas por um todo.&lt;/li&gt;
-  &lt;li&gt;       No final de Maio e começo de Junho faremos a implementação de alguns desses filtros para análise de performance e diferença de comportamento usando diferentes técnicas.&lt;/li&gt;
+  &lt;li&gt;[1] Antoniou, Andreas. “Digital filters.” McGraw Hill, 1993.&lt;/li&gt;
+  &lt;li&gt;[2] Anderson, Brian DO, and John B. Moore. “Optimal filtering.” Englewood Cliffs 21 (1979): 22-95.&lt;/li&gt;
+  &lt;li&gt;[3] Sahu, O. P., M. K. Soni, and I. M. Talwar. “Marquardt optimization method to design two-channel quadrature mirror filter banks.” Digital Signal Processing 16.6 (2006): 870-879.&lt;/li&gt;
+  &lt;li&gt;[4] Lim, Yong, and Sydney Parker. “FIR filter design over a discrete powers-of-two coefficient space.” IEEE Transactions on Acoustics, Speech, and Signal Processing 31.3 (1983): 583-591.&lt;/li&gt;
+  &lt;li&gt;[5] Karaboga, Nurhan. “A new design method based on artificial bee colony algorithm for digital IIR filters.” Journal of the Franklin Institute 346.4 (2009): 328-348.&lt;/li&gt;
+  &lt;li&gt;[6] Dai, Chaohua, Weirong Chen, and Yunfang Zhu. “Seeker optimization algorithm for digital IIR filter design.” IEEE transactions on industrial electronics 57.5 (2010): 1710-1718.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- ## Atividades
- * &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; A primeira parte compreenderá os estudos teóricos. Esses estudos serão focados em entender sensores e seu uso no universo musical[3], algoritmos que usam sensores para estimar orientação, ângulo, etc, como em [4][5][6] e algumas técnicas utilizadas nesse campo, como o Kalman Filter [7]
- * &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pretendemos implementar um sistema que seja capaz de fazer essa estimação de maneira confiável e eficiente computacionalmente.
- * &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Após concluída essa fase do desenvolvimento usaremos esse sistema para desenvolver o baixo aumentado.
-
-| Atividade              	| Abr 	| Mai 	| Jun 	|
-|---------------------------|-------|-------|-------|
-| Estudo teórico         	|  X  	|  X  	|  X  	|
-| Implementação          	|     	|     	|  X  	|
-| Avaliação do Sistema   	|     	|     	|     	|
-| Aumentar o Instrumento 	|     	|     	|     	|
-| Monografia             	|     	|     	|     	|
-| Pôster                 	|     	|     	|     	|
-| Apresentação           	|     	|     	|     	|
- --&gt;
-&lt;!-- ## Referências --&gt;
-&lt;!-- * [1]HANSON, Andrew J. _Visualizing quaternions_. In: ACM SIGGRAPH 2005 Courses. ACM. 2005. p. 1.
-* [2]BERTSEKAS, Dimitri P. _Nonlinear programming. Belmont: Athena scientific_.1999.
-* [3]MEDEIROS, Carolina Brum; WANDERLEY, Marcelo M. _A comprehensive review of sensors and instrumentation methods in devices for musical expression_. Sensors, v. 14, n. 8, p. 13556-13591, 2014.
-* [4]COMOTTI, Daniele; ERMIDORE, Michele. _Quaternion based Extended Kalman Filter for a 9DOF IMU_.2011.
-* [5]DUMITRU, Nicolae; GRECU, Luminita; GRECU, Valentin. _Analysis of Human Arm Joints and Extension of the Study to Robot Manipulator_. Proceedings of the International MultiConferennce of Engineers and Compute Scientists 2009 Vol 2.
-* [6]MARINS, João Luís, et al. _An extended Kalman filter for quaternion-based orientation estimation using MARG sensors_. Intelligent Robots and Systems, 2001. Proceedings. 2001 IEEE/RSJ International Conference on. Vol. 4. IEEE, 2001.
-* [7]WELCH, Greg; BISHOP, Gary. An introduction to the Kalman filter. 1995. --&gt;
-&lt;!-- 
-## Source Code
+&lt;!-- ## Source Code
 * [Repositório Github](https://github.com/msart/Joint-angles-estimation-with-9dof-sensors) --&gt;
 
 </content>

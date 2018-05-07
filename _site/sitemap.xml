@@ -2,9 +2,72 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/semanasete</loc>
+    
+    <lastmod>2018-05-04T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanaseis</loc>
+    
+    <lastmod>2018-04-27T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanacinco</loc>
+    
+    <lastmod>2018-04-20T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanaquatro</loc>
+    
+    <lastmod>2018-04-13T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanatres</loc>
+    
+    <lastmod>2018-04-06T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanadois</loc>
+    
+    <lastmod>2018-03-30T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/semanaum</loc>
+    
+    <lastmod>2018-03-23T19:00:00-03:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>/proposta</loc>
     
-    <lastmod>2017-03-02T19:00:00-03:00</lastmod>
+    <lastmod>2018-03-16T19:00:00-03:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>

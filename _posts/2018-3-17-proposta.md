@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Proposta"
+date:   2018-03-17 00:00:00 +0200
+---
+
+## Aluno: Pedro Marcondes
+## Orientador: Marcelo Queiroz
+## Tema: Algoritmos de otimização em problemas de processamento de sinais digitais
+<!--  * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Um instrumento aumentado é um instrumento tradicional cuja capacidades são amplificadas com o uso de sensores, tipos de produção de som e/ou diferentes formas de interação entre instrumento e instrumentista.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O objetivo do trabalho é conseguir estimar de uma maneira confiável o ângulo de uma articulação(entre o braço e antebraço especificamente)  para ser aplicado no contexto de mapeamento de movimentos de instrumentistas para o campo de instrumentos aumentados.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buscamos alternativas para refinar algoritmos usados atualmente, como o uso de quatérnions para representação das rotações, a fim de evitar problemas e limitações relacionados com as representações por eixos ou Euler(eixos constantemente variando e “Gimbal Lock”)[1], técnicas como o método de gradiente descendente[2] e Gauss-Newton[2] que quando aplicadas a este problema conseguiram reduzir o custo computacional, como em [4][6].
+ -->
+
+## Objetivos
+<!--  * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O primeiro objetivo é conseguir estimar o ângulo entre o braço e antebraço de um músico com o uso de sensores. Para esse trabalho serão utilizados acelerômetros, giroscópios e magnetômetros.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Depois pretendemos aplicar essa estimação no baixo elétrico afim de usar a angulação da articulação mencionada como controlador de efeito no som produzido pelo instrumento, desenvolvendo assim um baixo aumentado. -->
+
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este projeto de iniciação científica visa o estudo e implementação de algoritmos de otimização aplicados a problemas de processamento de sinais digitais. Além de estender a formação básica do BCC, uma motivação desse projeto é ganhar intuição e conhecimento acerca dessa intersecção de disciplinas, que contém desafios importantes em computação sonora e musical, como o desenho de filtros com respostas em frequência especificadas, a redução de custos computacionais a partir da reformulação de filtros (por exemplo através de aproximações de filtros não-recursivos através de filtros recursivos), o posicionamento ótimo de fontes sonoras e ouvintes em espaços acústicos, entre outros.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outra motivação parte do meu trabalho de conclusão de curso, no qual trabalhei com um filtro para estabilização de dados de sensores espaciais (acelerômetro e magnetômetro) que usava o método do gradiente descendente para estimar a direção do sensor. Desenvolvi um filtro que tratava o problema com um sensor, e me interessa explorar possíveis expansões desse problema para múltiplos sensores com restrições de movimento (por exemplo no caso de sensores posicionados em eixos acoplados, como o braço e o antebraço de uma pessoa).
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como ponto de partida irei estudar textos fundamentais sobre o desenho de filtros recursivos e não recursivos e as técnicas de otimização utilizadas para isso, antes de definir uma aplicação específica para a etapa final do projeto. Pretendemos avançar de forma coordenada entre os estudos teóricos e a implementação prática dos algoritmos estudados, através de protótipos que permitam entender melhor os comportamentos e resultados de possíveis alternativas de implementação (usando modelos de representação e algoritmos diferentes).
+
+## Etapas e Cronograma
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O trabalho se divide em três partes. O primeiro passo será estudar o material fundamental para ganhar uma visão um pouco mais geral dessa fronteira interdisciplinar. Em um segundo momento, o objetivo será delimitar o escopo do trabalho, ou seja, selecionar problemas em processamento de sinais digitais e algoritmos de otimização específicos que serão estudados mais detalhadamente. A terceira parte consiste em realizar experimentos computacionais comparativos entre as técnicas e problemas selecionados.
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As primeiras três semanas se concentraram na leitura de material introdutório/didático ao assunto [1][2] que abrange diversas aplicações, além de 4 artigos [3][4][5][6] relativos a problemas específicos como forma de conhecer algumas aplicações específicas nessa fronteira entre processamento de sinais e otimização. Estimamos gastar cerca de 21 horas nessa etapa, o que resultaria em uma carga semanal de cerca de 7 horas, sem contar outras atividades regulares e relacionadas com esse trabalho, como as reuniões semanais do grupo de computação musical (2 hs/semana), os seminários semanais (que começarão em Abril, 1 h/semana) e reuniões individuais com o orientador (reuniões de 1h com periodicidade semanal ou quinzenal conforme a necessidade), que continuarão por todo o semestre.
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Iniciando na segunda semana de Abril até o meio de Maio a proposta é estudar aprofundadamente uma seleção específica de problemas identificados na primeira etapa, através de referências novas obtidas de um levantamento bibliográfico específico aos problemas selecionados. Em termos numéricos, pretendemos explorar três algoritmos de otimização diferentes, dentre métodos de otimização contínua e combinatória para minimização local e global, além de dois ou três problemas relacionados ao desenho de filtros. Nessa segunda etapa estimamos gastar 40 horas, ou 8 horas por semana.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Do meio de Maio até o meio de Junho planejaremos e realizaremos um experimento computacional para comparar alternativas de modelagem/solução dos problemas selecionados na segunda etapa em termos de performance computacional, qualidade das soluções ou outros critérios específicos que podem depender da escolha dos problemas. Estimamos que o tempo de implementação, análise e discussão dos resultados serão em torno de 30 horas, ou 7.5 horas por semana.
+ * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Nas últimas duas semanas de Junho o tempo será reservado para realizar e revisar o pôster (6 horas estimadas) e para o desenvolvimento e revisão do relatório final, que consiste em reunir e organizar todo o material escrito durante o semestre, complementando-o com informações necessárias (8 horas estimadas).
+
+|                       	| Semana 1 | Semana 2 | Semana 3 | Semana 4 | Total         |
+|---------------------------|----------|----------|----------|----------|---------------|     
+| Março         			|    0	   |    0	  |    7	 |    7     |   14          |
+| Abril          			|    7	   |    8 	  |    8  	 |    8     |   31          |
+| Maio   					|    8 	   |    8 	  |   7,5 	 |   7,5    |   31          |
+| Junho 					|   7,5    |   7,5    |    7 	 |    7     |   29          | 
+| Total de horas           	|     	   |     	  |     	 |          |   105 + 40    |
+
+
+
+## Referências
+* [1] Antoniou, Andreas. "Digital filters." McGraw Hill, 1993.
+* [2] Anderson, Brian DO, and John B. Moore. "Optimal filtering." Englewood Cliffs 21 (1979): 22-95.
+* [3] Sahu, O. P., M. K. Soni, and I. M. Talwar. "Marquardt optimization method to design two-channel quadrature mirror filter banks." Digital Signal Processing 16.6 (2006): 870-879.
+* [4] Lim, Yong, and Sydney Parker. "FIR filter design over a discrete powers-of-two coefficient space." IEEE Transactions on Acoustics, Speech, and Signal Processing 31.3 (1983): 583-591.
+* [5] Karaboga, Nurhan. "A new design method based on artificial bee colony algorithm for digital IIR filters." Journal of the Franklin Institute 346.4 (2009): 328-348.
+* [6] Dai, Chaohua, Weirong Chen, and Yunfang Zhu. "Seeker optimization algorithm for digital IIR filter design." IEEE transactions on industrial electronics 57.5 (2010): 1710-1718.
+
+<!-- ## Source Code
+* [Repositório Github](https://github.com/msart/Joint-angles-estimation-with-9dof-sensors) -->
+
