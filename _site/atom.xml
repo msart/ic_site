@@ -4,13 +4,55 @@
  <title>Pedro Marcondes</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-05-07T11:20:54-03:00</updated>
+ <updated>2018-05-30T14:47:57-03:00</updated>
  <id></id>
  <author>
    <name>Pedro Marcondes</name>
    <email>p.marcondes94@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Semana 10</title>
+   <link href="#2018-05-26-19"/>
+   <updated>2018-05-26T19:00:00-03:00</updated>
+   <id>/semanadez</id>
+   <content type="html">&lt;h2 id=&quot;2018-05-27&quot;&gt;2018-05-27&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Essa semana e a próxima o foco foi e será fazer as implementações para que tenha tempo de realizar mudanças necessárias e gerar os resultados para montar o poster.&lt;/li&gt;
+  &lt;li&gt;       Comecei com o filtro passa baixa usando um algoritmo quasi-Newton para em sequência implementar o mesmo usando o algoritmo de colônia artificial de abelhas.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 9</title>
+   <link href="#2018-05-19-19"/>
+   <updated>2018-05-19T19:00:00-03:00</updated>
+   <id>/semananove</id>
+   <content type="html">&lt;h2 id=&quot;2018-05-20&quot;&gt;2018-05-20&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Essa semana foquei em resolução de ep’s e afins logo tive um desenvolvimento bem pequeno na pesquisa. Foquei em continuar estudando o banco de filtros.&lt;/li&gt;
+  &lt;li&gt;       Além disso pesquisei algumas implementações de algoritmos quasi-Newton para aplicar no filtro, olhando qual era a mais simples e adequada para o processo.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Semana 8</title>
+   <link href="#2018-05-12-19"/>
+   <updated>2018-05-12T19:00:00-03:00</updated>
+   <id>/semanaoito</id>
+   <content type="html">&lt;h2 id=&quot;2018-05-13&quot;&gt;2018-05-13&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;       Estudei os novos materiais sobre o banco de filtros “two-channel quadrature mirror” e comecei a montar uma apresentação sobre o mesmo para o grupo de computação musical.&lt;/li&gt;
+  &lt;li&gt;       Além disso trabalhei sobre o feedback recebido nas apresentações anteriores sobre como abordar as implementações afim de montar uma comparação válida entre os algoritmos.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Semana 7</title>
