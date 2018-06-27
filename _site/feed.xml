@@ -5,8 +5,8 @@
     <description>Projeto IC IME-USP 2018 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 10:25:41 -0300</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 10:25:41 -0300</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 11:26:14 -0300</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 11:26:14 -0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -114,7 +114,7 @@
         <description>&lt;h2 id=&quot;2018-05-13&quot;&gt;2018-05-13&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;       Estudei os novos materiais sobre as opções de filtros para implementar e pela complexidade das implementações acabei decidindo comparar usando os passa-baixas pois poderia focar mais na implementação dos algoritmos em si. Começei fazer algumas implementações dos algoritmos individualmente para testá-los em problemas genéricos.&lt;/li&gt;
+  &lt;li&gt;       Estudei os novos materiais sobre as opções de filtros para implementar e pela complexidade das implementações acabei decidindo comparar usando os passa-baixas pois poderia focar mais na implementação dos algoritmos em si. Comecei fazer algumas implementações dos algoritmos individualmente para testá-los em problemas genéricos.&lt;/li&gt;
   &lt;li&gt;       Além disso trabalhei sobre o feedback recebido nas apresentações anteriores sobre como abordar as implementações afim de montar uma comparação válida entre os algoritmos.&lt;/li&gt;
   &lt;li&gt;       Tempo: 0.5hrs(planejando apresentação para o grupo) + 2hrs(reunião do grupo de computação musical) + 3hrs(estudos) + 3hrs(implementações) + 1hr(seminário do grupo de computação musical) = 9.5hrs&lt;/li&gt;
 &lt;/ul&gt;
@@ -200,7 +200,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;       Mesmo com algumas coisas já selecionadas essa semana passei a estudar as outras referências para checar se o caminho pensado na semana passada é mesmo o que vamos seguir nesse trabalho ou até mesmo achar coisas que contribuam para ele. Logo comecei a ler a segunda referência “Optimal Filtering” de uma maneira mais superficial para ver se acho uma abordagem diferente.&lt;/li&gt;
-  &lt;li&gt;       Além disso paralelamente começei a estudar conceitos sobre filtros (analógicos, digitais, ordem do filtro, etc.).&lt;/li&gt;
+  &lt;li&gt;       Além disso paralelamente comecei a estudar conceitos sobre filtros (analógicos, digitais, ordem do filtro, etc.).&lt;/li&gt;
   &lt;li&gt;       Tempo: 2hrs(reunião do grupo de computação musical) + 7hrs(estudos) = 9hrs&lt;/li&gt;
 &lt;/ul&gt;
 </description>

@@ -4,7 +4,7 @@
  <title>Pedro Marcondes</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-06-27T10:25:41-03:00</updated>
+ <updated>2018-06-27T11:26:14-03:00</updated>
  <id></id>
  <author>
    <name>Pedro Marcondes</name>
@@ -114,7 +114,7 @@
    <content type="html">&lt;h2 id=&quot;2018-05-13&quot;&gt;2018-05-13&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;       Estudei os novos materiais sobre as opções de filtros para implementar e pela complexidade das implementações acabei decidindo comparar usando os passa-baixas pois poderia focar mais na implementação dos algoritmos em si. Começei fazer algumas implementações dos algoritmos individualmente para testá-los em problemas genéricos.&lt;/li&gt;
+  &lt;li&gt;       Estudei os novos materiais sobre as opções de filtros para implementar e pela complexidade das implementações acabei decidindo comparar usando os passa-baixas pois poderia focar mais na implementação dos algoritmos em si. Comecei fazer algumas implementações dos algoritmos individualmente para testá-los em problemas genéricos.&lt;/li&gt;
   &lt;li&gt;       Além disso trabalhei sobre o feedback recebido nas apresentações anteriores sobre como abordar as implementações afim de montar uma comparação válida entre os algoritmos.&lt;/li&gt;
   &lt;li&gt;       Tempo: 0.5hrs(planejando apresentação para o grupo) + 2hrs(reunião do grupo de computação musical) + 3hrs(estudos) + 3hrs(implementações) + 1hr(seminário do grupo de computação musical) = 9.5hrs&lt;/li&gt;
 &lt;/ul&gt;
@@ -195,7 +195,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;       Mesmo com algumas coisas já selecionadas essa semana passei a estudar as outras referências para checar se o caminho pensado na semana passada é mesmo o que vamos seguir nesse trabalho ou até mesmo achar coisas que contribuam para ele. Logo comecei a ler a segunda referência “Optimal Filtering” de uma maneira mais superficial para ver se acho uma abordagem diferente.&lt;/li&gt;
-  &lt;li&gt;       Além disso paralelamente começei a estudar conceitos sobre filtros (analógicos, digitais, ordem do filtro, etc.).&lt;/li&gt;
+  &lt;li&gt;       Além disso paralelamente comecei a estudar conceitos sobre filtros (analógicos, digitais, ordem do filtro, etc.).&lt;/li&gt;
   &lt;li&gt;       Tempo: 2hrs(reunião do grupo de computação musical) + 7hrs(estudos) = 9hrs&lt;/li&gt;
 &lt;/ul&gt;
 </content>
