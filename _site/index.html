@@ -88,6 +88,96 @@
 					<h1>Desenvolvimento</h1>
 				</div>
 				
+<div id="2018-06-25-19" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>Semana 14 e 15<br>
+	
+		</h2>
+		
+		<div class="post-content">
+			<h2 id="2018-06-26">2018-06-26</h2>
+
+<ul>
+  <li>       Semana reservada pra escrita do relatório final (organização das notas feitas durante a pesquisa e complementação de algumas discussões)</li>
+  <li>       Tempo: 10hrs (relatório) + 2hrs (seminários de computação musical) = 12hrs</li>
+</ul>
+
+		</div>
+
+		
+
+	</article>
+</div>
+
+<div id="2018-06-16-19" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>Semana 13<br>
+	
+		</h2>
+		
+		<div class="post-content">
+			<h2 id="2018-06-17">2018-06-17</h2>
+
+<ul>
+  <li>       Semana reservada para fazer e revisão do mesmo.</li>
+  <li>       Tempo: 6hrs(pôster)</li>
+</ul>
+
+		</div>
+
+		
+
+	</article>
+</div>
+
+<div id="2018-06-09-19" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>Semana 12<br>
+	
+		</h2>
+		
+		<div class="post-content">
+			<h2 id="2018-06-10">2018-06-10</h2>
+
+<ul>
+  <li>       Nessa semana fui na terça para Belo Horizonte participar do SysMus 2018, que é uma conferência internacional de musicologia sistemática onde fiquei a semana inteira. Apesar de ter tido pouco tempo para trabalhar no projeto em si, foram 3 dias de aprensentações que foram extremamente proveitosas para mim.</li>
+  <li>
+    <p>       Acabei aproveitando essa semana para finalizar a última implementação e gerar alguns testes que anteriormente foram discutidos na reunião do grupo sobre como deveria abordar. Gerei a resposta de fase dos filtros passa-baixas usando ordem 8 (pois dois filtros eram IIR, que são lentos para quando usamos uma ordem muito grande) com uma frequência de corte de 7500hz e uma banda de transição de 500hz, além de duas medidas de erro para um filtro ideal(Euclidiana e de Chebyshev) e o tempo médio de execução em 1000 tentativas. Apenas o algoritmo ABC que demora mais que não teve seu teste concluído por demorar mais pra executar.</p>
+  </li>
+  <li>       Tempo: 3hrs(implementações e resultados) +1hr(seminário do grupo de computação musical)  = 4hrs</li>
+</ul>
+
+		</div>
+
+		
+
+	</article>
+</div>
+
+<div id="2018-06-02-19" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>Semana 11<br>
+	
+		</h2>
+		
+		<div class="post-content">
+			<h2 id="2018-06-3">2018-06-3</h2>
+
+<ul>
+  <li>       De volta a implementação do algoritmo ABC e conseguimos resolver o problema de implementação e calibração, apesar de ainda demorar muito para funcionar (o algoritmo permite bastante paralelização e talvez uma calibração melhor dos parâmetros fizesse que diminuísse o tempo).</li>
+  <li>
+    <p>       Após isso começei a fazer os outros dois algoritmos porém são mais clássicos no contexto de filtros, logo tinha várias implementações para me apoiar e resolver os problemas mais rápido. Consegui terminar a implementação usando do método dos quadrados mínimos e avançei bastante no algoritmo de Remez</p>
+  </li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 6hrs(implementações) = 8hrs</li>
+</ul>
+
+		</div>
+
+		
+
+	</article>
+</div>
+
 <div id="2018-05-26-19" class="unit whole align-left post">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		<h2>Semana 10<br>
@@ -98,8 +188,11 @@
 			<h2 id="2018-05-27">2018-05-27</h2>
 
 <ul>
-  <li>       Essa semana e a próxima o foco foi e será fazer as implementações para que tenha tempo de realizar mudanças necessárias e gerar os resultados para montar o poster.</li>
-  <li>       Comecei com o filtro passa baixa usando um algoritmo quasi-Newton para em sequência implementar o mesmo usando o algoritmo de colônia artificial de abelhas.</li>
+  <li>       Essa semana e a próxima o foco foi e será daqui pra frente fazer as implementações já dos filtros para que tenha tempo de realizar mudanças necessárias e gerar os resultados para montar o poster.</li>
+  <li>
+    <p>       Comecei com o filtro passa baixa usando um algoritmo quasi-Newton para em sequência implementar o mesmo usando o algoritmo de colônia artificial de abelhas. Com o quasi-Newton escolhi o método BFGS por possuir algumas características que facilitam seu uso (garantia que a hessiana aproximada seja positiva definida se a da iteração anterior também for) e os resultados foram obtidos sem nenhum problema (detalhes do algoritmo e implementação no pôster e resultados discutidos juntos no fim), porém o algoritmo ABC eu tive dificuldade em conseguir fazer funcionar, e continuará sendo pauta na próxima semana</p>
+  </li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 6hrs(implementações) + 2hr(seminários do grupo de computação musical) = 10hrs</li>
 </ul>
 
 		</div>
@@ -119,8 +212,9 @@
 			<h2 id="2018-05-20">2018-05-20</h2>
 
 <ul>
-  <li>       Essa semana foquei em resolução de ep’s e afins logo tive um desenvolvimento bem pequeno na pesquisa. Foquei em continuar estudando o banco de filtros.</li>
+  <li>       Essa semana foquei em resolução de ep’s e afins logo tive um desenvolvimento bem pequeno na pesquisa. Alguns algoritmos funcionando em outros contextos, comecei a implementar o algoritmo de colônia artificial de abelhas. Percebi que o algoritmo necessita de uma boa quantidade de testes para descobrir valores ideais para seus parâmetros (número de abelhas, iterações, os limitantes das pesquisas que necessitam de um conhecimento do próprio problema, etc.).</li>
   <li>       Além disso pesquisei algumas implementações de algoritmos quasi-Newton para aplicar no filtro, olhando qual era a mais simples e adequada para o processo.</li>
+  <li>       Tempo: 0.5hrs(planejando apresentação para o grupo) +  2hrs(reunião do grupo de computação musical) + 3hrs(implementações) = 5.5hrs</li>
 </ul>
 
 		</div>
@@ -140,8 +234,9 @@
 			<h2 id="2018-05-13">2018-05-13</h2>
 
 <ul>
-  <li>       Estudei os novos materiais sobre o banco de filtros “two-channel quadrature mirror” e comecei a montar uma apresentação sobre o mesmo para o grupo de computação musical.</li>
+  <li>       Estudei os novos materiais sobre as opções de filtros para implementar e pela complexidade das implementações acabei decidindo comparar usando os passa-baixas pois poderia focar mais na implementação dos algoritmos em si. Começei fazer algumas implementações dos algoritmos individualmente para testá-los em problemas genéricos.</li>
   <li>       Além disso trabalhei sobre o feedback recebido nas apresentações anteriores sobre como abordar as implementações afim de montar uma comparação válida entre os algoritmos.</li>
+  <li>       Tempo: 0.5hrs(planejando apresentação para o grupo) + 2hrs(reunião do grupo de computação musical) + 3hrs(estudos) + 3hrs(implementações) + 1hr(seminário do grupo de computação musical) = 9.5hrs</li>
 </ul>
 
 		</div>
@@ -162,7 +257,8 @@
 
 <ul>
   <li>       Como foi semana de break, tradicionalmente temos muito trabalho relacionado as matérias e acabei não sendo muito produtivo. Nessa semana montei a apresentação para a reunião e continuei estudando o algoritmo de colônia artificial de abelhas.</li>
-  <li>       Outro ponto feito foi separar novosa materiais sobre o banco de filtros “two-channel quadrature mirror” para entender o como e porquê ele foi desenhado.</li>
+  <li>       Outro ponto feito foi separar novosa materiais sobre o banco de filtros “two-channel quadrature mirror” e desenhos de filtros passa-baixa para entender o como funciona o desenho dos mesmos. Acredito que usarei uma dessas opções para fazer a comparação dos algoritmos.</li>
+  <li>       Tempo: 0.5hrs(planejando apresentação para o grupo) + 2hrs(reunião do grupo de computação musical) + 2hrs(estudos) = 4.5hrs</li>
 </ul>
 
 		</div>
@@ -184,6 +280,8 @@
 <ul>
   <li>       Como estabelecemos o que iria ser estudado foi proposto que eu preparasse apresentações sobre os algoritmos e os filtros para as reuniões semanais do grupo de computação musical. São apresentações técnicas curtas de cerca de 15 minutos e decidi fazer a primeira mais geral e as outras tratando cada algoritmo individualmente para no fim poder mostrar a compração.</li>
   <li>       Além disso essa semana voltei a focar no algoritmo de Remez com mais calma, dado que era o algoritmo que estava tendo mais dificuldade e o de colônia artificial de abelhas por ser algo totalmente novo para mim. Para entender melhor o segundo eu decidi primeiro estudar no geral algoritmos de enxame.</li>
+  <li>       A dificuldade com o algoritmo de Remez era entender a teoria que fornece a base para o método, em termos práticos já me sentia seguro para implementar os algoritmos.</li>
+  <li>       Tempo: 0.5hrs(planejando apresentação para o grupo) + 2hrs(reunião do grupo de computação musical) + 6hrs(estudos) + 1hr(seminário do grupo de computação musical) = 9.5hrs</li>
 </ul>
 
 		</div>
@@ -204,8 +302,10 @@
 
 <ul>
   <li>       Como gostaria de comparar algum outro algoritmo com o algoritmo de Newton, selecionei o algoritmo de colônia artificial de abelhas pois pode ser usado no mesmo tipo de filtro que usamos o algoritmo de Newton. Além disso é um algoritmo bem diferente dos outros e algo com uma intuição nova para mim, logo me parece uma boa oportunidade para entender esse tipo de abordagem tanto de maneira teórica como na própria implementação.</li>
-  <li>       Com isso juntamos 4 algoritmos onde podemos estabelecer uma comparação (Newton x ABC e minimax x Remez) e assim pássamos para etapa de aprofundamento tanto nos algoritmos quanto nos filtros em que eles são usados, já que um deles é o “two-channel quadrature mirror filter banks” do qual não tenho conhecimento prévio.</li>
+  <li>       Com isso juntamos 4 algoritmos onde podemos estabelecer uma comparação (Newton x ABC x quadrados mínimos x Remez). Agora o passo é aprofundar nos algoritmos, suas implementações e o design de filtro que planejo implementar usando esses algoritmos.</li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 4hrs(estudos) = 6hrs</li>
 </ul>
+
 
 		</div>
 
@@ -226,7 +326,11 @@
 <ul>
   <li>       Essa semana eu finalizei a leitura rápida do “Optimal Filtering” e parti para os artigos pré-selecionados. Após uma discussão da reunião achamos uma boa tática realmente seguir com a ideia de encontrar algoritmos usados nos mesmos tipos de filtro para facilitar a comparação entre eles.</li>
   <li>       Um algoritmo que me chamou atenção foi o algoritmo de substituição de Remez pelo fato de ser usado em um banco de filtros igual ao do minimax e ser uma variação mais elaborada do mesmo. O que seria interessante para comparação.</li>
+  <li>       Além disso paralelamente continuei a estudar conceitos sobre filtros, nessa semana pesquisando sobre filtros FIR e IIR.</li>
+  <li>       O algoritmo se apoia no Teorema de alternação, o que foi meu foco essa semana.</li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 6hrs(estudos) = 8hrs</li>
 </ul>
+
 
 		</div>
 
@@ -246,6 +350,8 @@
 
 <ul>
   <li>       Mesmo com algumas coisas já selecionadas essa semana passei a estudar as outras referências para checar se o caminho pensado na semana passada é mesmo o que vamos seguir nesse trabalho ou até mesmo achar coisas que contribuam para ele. Logo comecei a ler a segunda referência “Optimal Filtering” de uma maneira mais superficial para ver se acho uma abordagem diferente.</li>
+  <li>       Além disso paralelamente começei a estudar conceitos sobre filtros (analógicos, digitais, ordem do filtro, etc.).</li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 7hrs(estudos) = 9hrs</li>
 </ul>
 
 		</div>
@@ -265,8 +371,9 @@
 			<h2 id="2018-03-31">2018-03-31</h2>
 
 <ul>
-  <li>       Ainda continuando a leitura do livro “Digital Filters” me deparei com o uso de algoritmos minimax no design de filtros. Isso me chamou atenção pois estava estudando o algoritmo para a matéria de IA e achei interessante dado que são contextos bem diferentes. Em IA o algoritmo é usado geralmente em jogos. No design de filtro esses algoritmos são usados para minimizar o máximo de alguma norma. É um método bem simples e fácil de entender a intuição.</li>
+  <li>       Ainda continuando a leitura do livro “Digital Filters” me deparei com o uso de algoritmos minimax no design de filtros. Isso me chamou atenção pois estava estudando o algoritmo para a matéria de IA e achei interessante dado que são contextos bem diferentes. Em IA o algoritmo é usado geralmente em jogos. No design de filtro esses algoritmos são usados para minimizar o máximo de alguma norma (norma infinita). É um método bem simples em cocneito e fácil de entender a intuição. Entendendo como utilizá-los no design, o passo é estudar os algoritmos em si.</li>
   <li>       Até agora os algoritmos são simples e possuem bastante referências de como utilizá-los no design. Me parece interessante selecioná-los afim de comparar a performance.</li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 5hrs(estudos) = 7hrs</li>
 </ul>
 
 		</div>
@@ -288,6 +395,7 @@
 <ul>
   <li>       Nessa primeira semana estudei o material conforme especificado no planejamento. Iniciei com a primeira referência “Digital Filters” com o intuito de estudar um pouco design de filtros e alguns algoritmos de otimização.</li>
   <li>       Dois algoritmos ocuparam meus estudos essa semana, algoritmo de Newton e Quasi-Newton. O segundo sendo apenas uma modificação do primeiro afim de diminuir o número de cálculos necessários. Foquei em estudar os algoritmos, o como e porquê ele é usado nesse contexto.</li>
+  <li>       Tempo: 2hrs(reunião do grupo de computação musical) + 5hrs(estudos) = 7hrs</li>
 </ul>
 
 		</div>
