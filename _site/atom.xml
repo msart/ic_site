@@ -4,7 +4,7 @@
  <title>Pedro Marcondes</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-06-27T11:27:53-03:00</updated>
+ <updated>2018-06-27T12:27:41-03:00</updated>
  <id></id>
  <author>
    <name>Pedro Marcondes</name>
@@ -67,7 +67,7 @@
 &lt;ul&gt;
   &lt;li&gt;       De volta a implementação do algoritmo ABC e conseguimos resolver o problema de implementação e calibração, apesar de ainda demorar muito para funcionar (o algoritmo permite bastante paralelização e talvez uma calibração melhor dos parâmetros fizesse que diminuísse o tempo).&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;       Após isso comecei a fazer os outros dois algoritmos porém são mais clássicos no contexto de filtros, logo tinha várias implementações para me apoiar e resolver os problemas mais rápido. Consegui terminar a implementação usando do método dos quadrados mínimos e avançei bastante no algoritmo de Remez&lt;/p&gt;
+    &lt;p&gt;       Após isso comecei a fazer os outros dois algoritmos porém são mais clássicos no contexto de filtros, logo tinha várias implementações para me apoiar e resolver os problemas mais rápido. Consegui terminar a implementação usando do método dos quadrados mínimos e avancei bastante no algoritmo de Remez&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;       Tempo: 2hrs(reunião do grupo de computação musical) + 6hrs(implementações) = 8hrs&lt;/li&gt;
 &lt;/ul&gt;

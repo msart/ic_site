@@ -5,8 +5,8 @@
     <description>Projeto IC IME-USP 2018 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 11:27:53 -0300</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 11:27:53 -0300</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 12:27:41 -0300</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 12:27:41 -0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -64,7 +64,7 @@
 &lt;ul&gt;
   &lt;li&gt;       De volta a implementação do algoritmo ABC e conseguimos resolver o problema de implementação e calibração, apesar de ainda demorar muito para funcionar (o algoritmo permite bastante paralelização e talvez uma calibração melhor dos parâmetros fizesse que diminuísse o tempo).&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;       Após isso comecei a fazer os outros dois algoritmos porém são mais clássicos no contexto de filtros, logo tinha várias implementações para me apoiar e resolver os problemas mais rápido. Consegui terminar a implementação usando do método dos quadrados mínimos e avançei bastante no algoritmo de Remez&lt;/p&gt;
+    &lt;p&gt;       Após isso comecei a fazer os outros dois algoritmos porém são mais clássicos no contexto de filtros, logo tinha várias implementações para me apoiar e resolver os problemas mais rápido. Consegui terminar a implementação usando do método dos quadrados mínimos e avancei bastante no algoritmo de Remez&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;       Tempo: 2hrs(reunião do grupo de computação musical) + 6hrs(implementações) = 8hrs&lt;/li&gt;
 &lt;/ul&gt;
