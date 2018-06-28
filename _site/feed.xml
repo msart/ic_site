@@ -5,9 +5,21 @@
     <description>Projeto IC IME-USP 2018 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 12:27:41 -0300</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 12:27:41 -0300</lastBuildDate>
+    <pubDate>Thu, 28 Jun 2018 14:50:17 -0300</pubDate>
+    <lastBuildDate>Thu, 28 Jun 2018 14:50:17 -0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Monografia e parte subjetiva</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.linux.ime.usp.br/~msart/ic/poster.pdf&quot;&gt;Pôster&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linux.ime.usp.br/~msart/ic/relatorio.pdf&quot;&gt;Relatório Final&lt;/a&gt;&lt;/p&gt;
+</description>
+        <link></link>
+        <guid isPermaLink="true">/posterrelatorio</guid>
+        
+        
+      </item>
     
       <item>
         <title>Semana 14 e 15</title>

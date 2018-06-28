@@ -4,13 +4,24 @@
  <title>Pedro Marcondes</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-06-27T12:27:41-03:00</updated>
+ <updated>2018-06-28T14:50:17-03:00</updated>
  <id></id>
  <author>
    <name>Pedro Marcondes</name>
    <email>p.marcondes94@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Monografia e parte subjetiva</title>
+   <link href="#2018-06-27-19"/>
+   <updated>2018-06-27T19:00:00-03:00</updated>
+   <id>/posterrelatorio</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.linux.ime.usp.br/~msart/ic/poster.pdf&quot;&gt;Pôster&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linux.ime.usp.br/~msart/ic/relatorio.pdf&quot;&gt;Relatório Final&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Semana 14 e 15</title>
